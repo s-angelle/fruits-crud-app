@@ -1,6 +1,9 @@
 {
   "name": "2022-05-17-mvc-continued",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.1"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
