@@ -3,7 +3,7 @@ const express = require('express')
 const {connect, connection} = require('mongoose')
 const method = require('method-override')
 const app = express()
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 const Fruit = require('./models/Fruit')
 
 // ===== Connection to Database =====
