@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
-const {connect, connection} = require('mongoose')
-const method = require('method-override')
+const {connect, connection} = require('mongoose');
+const method = require('method-override');
 const app = express()
 const PORT = process.env.PORT || 3000
 const Fruit = require('./models/Fruit')
